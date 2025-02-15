@@ -18,7 +18,7 @@ To maintain a consistent look and feel, I rendered loading and error states as t
 
 I refactored the OpenAI response handling into a reusable custom hook, keeping it decoupled from the rest of the system. This allows it to be easily reused in other components if needed.
 
-I anticipate that users will rarely want to provide their own evaluation of responses, so I designed this feature to be subtle yet easily accessible.
+I anticipate that users will want to provide their own evaluation of responses, but not super frequently, so I designed this feature to be subtle yet easily accessible.
 
 I chose not to deploy this app to a hosted environment since it's a Single Page Application (SPA), which would expose the API key. However, I can demonstrate the deployment process in a demo if needed.
 
