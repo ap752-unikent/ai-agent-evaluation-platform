@@ -1,3 +1,15 @@
+# Running the project
+First add your ```VITE_OPENAI_API_KEY=``` to the .env file. See .env.example for the correct format.
+
+Then:
+
+```
+npm i
+npm run dev
+```
+
+That should be it, vite will allocate a port and you can begin evaluating ai agents responses 🎉
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
